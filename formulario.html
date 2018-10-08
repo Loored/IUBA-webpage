@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link media="all" type="text/css" rel="stylesheet" href="/css/main.css">
+    <title>Arte y Cultura</title>
+</head>
+<body>
+        <nav class="navbar is-success">
+                <div class="navbar-brand">
+                    <a class="navbar-item has-text-weight-bold" href="#">IUBA | Eventos de Arte y Cultura</a>
+                    <a class="navbar-item has-text-weight-light" id="low-green" href="#">Instituto Universitario de Bellas Artes</a>
+                    <div class="navbar-burger burger" data-target="navMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- <div class="has">Eventos de Arte y Cultura</div> -->
+                </div>
+                <div class="navbar-menu" id="navMenu">
+                    <div class="navbar-end">
+                            <a href="index.html" class="navbar-item">Inicio</a>
+                            <a href="agenda.html" class="navbar-item">Agenda</a>
+                            <a href="historial.html" class="navbar-item">Historial</a>
+                            <a href="prensa.html" class="navbar-item">Prensa</a>
+                            <a href="descargas.html" class="navbar-item">Descargas</a>
+                            <div class="navbar-start">
+                                    <div class="navbar-item has dropdown is-hoverable">
+                                        <a href="#" class="navbar-link is-active">Buscar</a>
+                                        <div class="navbar-dropdown">
+                                            <a href="index.html" class="navbar-item">Inicio</a>
+                                            <a href="agenda.html" class="navbar-item">Agenda</a>
+                                            <a href="historial.html" class="navbar-item">Historial</a>
+                                            <a href="prensa.html" class="navbar-item">Prensa</a>
+                                            <a href="descargas.html" class="navbar-item">Descargas</a>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+    </nav>
+    <nav class="breadcrumb is-right has-bullet-separator" aria-label="breadcrumbs">
+            <ul>
+                <li>
+                <a href="login.html">
+                    <i aria-hidden="true"></i>
+                    <span>Entrar</span>
+                </a>
+                </li>
+                <li>
+                <a href="recovery.html">
+                    <i aria-hidden="true"></i>
+                    <span>¿Contraseña olvidada?</span>
+                </a>
+                </li>
+            </ul>
+    </nav>
+    <form action="formulario.html" method="POST">
+            <div class="container has-background-white has-text-centered">
+                    <p class="title is-2 has-text-weight-semibold is-marginless">Formulario para eventos</p>
+                    <hr class="has-background-black-ter has-text-centered is-paddingless">
+            </div>
+        <div class="container has-background-grey-lighter has-text-centered">
+            <h2>Solicitud de Eventos</h2>
+        </div>
+            <div class="container notification has-background-white-ter">
+                <label for="fecha"><b>Fecha: </b></label><input type="date" name="fecha" id="fecha"><br>
+                <label for="horaComienzo"><b>Hora de comienzo: </b></label><input type="time" name="horaComienzo" id="horaComienzo"><br>
+                <label for="horaSalida"><b>Hora de salida: </b></label><input type="time" name="horaSalida" id="horaSalida"><br>
+                <label for="evento"><b>Nombre del evento: </b></label><input type="text" name="evento" id="evento"><br>
+                <label for="lugar"><b>Lugar del evento: </b></label><input type="text" name="lugar" id="lugar"><br>
+                <div class="hero-stomach">
+                    <div class="container has-background-warning">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit tellus dapibus per curabitur class cras convallis, semper consequat lectus malesuada ornare eros mus nisl netus morbi magna aptent dictum. Ullamcorper conubia platea quis nullam nunc tellus maecenas aliquam molestie faucibus, fringilla cum volutpat interdum nascetur placerat consequat ante id sem magnis, gravida blandit a pretium vel ac montes suscipit cras. Augue tortor ut nam vehicula lacinia vitae conubia magnis sagittis tempus, vel est suspendisse quisque non posuere habitasse parturient erat aliquet, tempor dignissim ultrices potenti ligula pretium himenaeos mollis egestas.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <a class="button formulario is-medium is-warning has-text-weight-semibold">Más información</a><br>
+                <br>
+                <label for="lugar"><b>Lugar del evento: </b></label><input type="text" name="lugar" id="lugar"><br>
+                <br>
+            </div>
+    </form>
+    <footer class="footer is-paddingless is-unselectable is-sr-only">
+            <div class="columns has-background-dark">
+                <div class="column has-text-center is-one-quarter">
+                    <p class="is-size-6">Universidad de Colima<br>
+                        Av. Universidad No. 333, Las Víboras<br> 
+                        CP 28040 Colima, Colima, México
+                    </p>
+                </div>
+                <div class="column has-text-center is-one-quarter">
+                    <p class="is-size-6">Lorem ipsum dolor sit amet consectetur adipiscing elit tellus dapibus per curabitur class cras convallis, semper consequat lectus malesuada ornare eros mus nisl netus morbi magna aptent dictum.  
+                    </p>
+                </div>
+                <div class="column has-text-center is-one-quarter">
+                    <p class="is-size-6">Lorem ipsum dolor sit amet consectetur adipiscing elit tellus dapibus per curabitur class cras convallis, semper consequat lectus malesuada ornare eros mus nisl netus morbi magna aptent dictum. <br> 
+                    </p>
+                </div>
+                <div class="column has-text-center is-one-fifth">
+                        <p class="is-size-6">Lorem ipsum dolor sit amet consectetur adipiscing elit tellus dapibus per curabitur class cras convallis, semper consequat lectus malesuada ornare eros mus nisl netus morbi magna aptent dictum. 
+                        </p>
+                </div>
+            </div>
+    </footer>
+</body>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+    
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+    
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+    
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+    
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+    
+            });
+        });
+        }
+    });
+</script>
+</html>
