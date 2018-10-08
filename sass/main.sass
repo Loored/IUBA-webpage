@@ -1,13 +1,19 @@
+@charset "utf-8"
 @import "node_modules/bulma/sass/utilities/initial-variables"
+
+$breadcrumb-item-color: hsl(100, 70%, 25%)
+$grey-darker:  hsl(0, 0%, 9%)
+$breadcrumb-item-separator-color: $black
 
 //Customization
 
 @import "node_modules/bulma/bulma"
-
-$success: hsl(141, 71%, 98%)
+    
+$green: hsl(141, 71%, 43%)
 $white-bis: hsl(0, 0%, 97%)
 $h2: hsl(0, 1%, 24%)
 $hr: hsl(0, 1%, 100%)
+ 
 
 .container
     width: auto
@@ -17,11 +23,17 @@ hr
     width: 65%
     margin: auto
 
+#low-green
+    background: $green
+
 .title
     color: $h2
-    margin-top: -15px    
+    margin-top: 25px    
 
 blockquote
     width: 35%
     margin: auto
     margin-bottom: 2%
+
+footer p
+    color: $grey-lighter

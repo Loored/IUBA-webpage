@@ -8,10 +8,10 @@
     <title>Arte y Cultura</title>
 </head>
 <body>
-    <nav class="navbar is-primary is-success">
+    <nav class="navbar is-success">
                 <div class="navbar-brand">
                     <a class="navbar-item has-text-weight-bold" href="#">IUBA | Eventos de Arte y Cultura</a>
-                    <a class="navbar-item has-text-weight-light" href="#">Instituto Universitario de Bellas Artes</a>
+                    <a class="navbar-item has-text-weight-light" id="low-green" href="#">Instituto Universitario de Bellas Artes</a>
                     <div class="navbar-burger burger" data-target="navMenu">
                         <span></span>
                         <span></span>
@@ -37,28 +37,78 @@
                     </div>
                 </div>
         </nav>
+    <nav class="breadcrumb is-right has-bullet-separator" aria-label="breadcrumbs">
+            <ul>
+                <li>
+                <a href="#">
+                    <i aria-hidden="true"></i>
+                    <span>Entrar</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <i aria-hidden="true"></i>
+                    <span>¿Contraseña olvidada?</span>
+                </a>
+                </li>
+            </ul>
+    </nav>
         <!-- <header>
         <h1 class="is-black notification has-text-centered is-radiusless">Eventos de Arte y Cultura</h1>
         <br>
         </header> -->
     <section class="hero is-grey-light has-text-centered">
         <div class="hero-body">
+                <p class="title is-2 has-text-weight-semibold is-marginless">Formulario para eventos</p>
+                <br>
             <div class="container">
-                <p class="title is-2 has-text-weight-semibold">Formulario para eventos</p>
+                <hr class="has-background-black-ter has-text-centered is-paddingless">
+                <br>
                 <p class="subtitle is-5 has-text-weight-light is-marginless">Te recomendamos verificar la información a procesar en nuestro sistema.</p>
                 <p class="subtitle is-5 has-text-weight-light">Asegúrate de rellenar los campos con información correcta.</p>
-                    <!-- <h2>Formulario p/eventos</h2> -->
-                    <hr class="has-background-black-ter has-text-centered is-paddingless">
-                    <br>
-                    <blockquote class="has-background-success has-text-white has-text-weight-semibold">¿Estás seguro de iniciar con la captura de datos?</blockquote>
-                    <p class="subtitle is-4"><a class="button is-info" href="#">Aceptar</a> | <a class="button is-danger" href="#">Declinar</a></p>
-                    <br>
+                <!-- <h2>Formulario p/eventos</h2> -->
+                <br>
+                <blockquote class="has-background-success has-text-white has-text-weight-semibold">¿Estás seguro de iniciar con la captura de datos?</blockquote>
+                <p class="subtitle is-4"><a class="button is-info" href="#">Aceptar</a> | <a class="button is-danger" href="#">Declinar</a></p>
+                <br>
             </div>
         </div>
     </section>
-            <!-- 
-            <form action="index.html">
-                
-            </form> -->
+    <footer class="footer">
+        <!-- <div class="container notification is-dark is-radiusless">
+            <div class="content has-text-left">
+                <p class="is-size-6">Universidad de Colima<br>
+                    Av. Universidad No. 333, Las Víboras<br> 
+                    CP 28040 Colima, Colima, México
+                </p>
+            </div>
+            <div class="content has-text-center">
+                    <p class="is-size-6">Promoviendo la Cultura,<br>
+                        Artes, y la Ciencia.<br> 
+                    </p>
+                </div> -->
+            <div class="columns has-background-dark">
+                <div class="column has-text-center is-one-quarter">
+                    <p class="is-size-6">Universidad de Colima<br>
+                        Av. Universidad No. 333, Las Víboras<br> 
+                        CP 28040 Colima, Colima, México
+                    </p>
+                </div>
+                <div class="column has-text-center is-one-quarter">
+                    <p class="is-size-6">Promoviendo la Cultura,<br>
+                        Artes, y la Ciencia.<br> 
+                    </p>
+                </div>
+                <div class="column has-text-center is-one-quarter">
+                    <p class="is-size-6">¿Qué más puede ser?<br> 
+                    </p>
+                </div>
+                <div class="column has-text-center is-one-fifth">
+                        <p class="is-size-6">La Universidad de Colima, se encarga de blah... blah.. blah 
+                        </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
